@@ -107,7 +107,18 @@ h4 {
   color: white;
 }
 
+section {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+.box-image {
+  height: 200%;
+}
 .Box {
+  height: 200px;
+  display: inline-block;
+  max-width: 25vw;
   margin: 25px 25px;
   padding-bottom: 40px;
   border: solid 1px #dee1e3;
@@ -120,9 +131,13 @@ h4 {
 }
 
 footer {
+  text-align: center;
   background-color: #25a2c3;
   margin-top: 1rem;
   color: white;
+}
+footer div {
+  display: inline-block;
 }
 
 footer h2 {
@@ -138,10 +153,11 @@ footer p {
   padding: 2px;
   margin: 2px;
   font-size: 1rem;
+  text-align: left;
 }
-footer hr {
+div hr {
   line-height: 1.5px, solid, white;
-  width: 40%;
+
   margin-block: 2rem;
 }
 .closing {
