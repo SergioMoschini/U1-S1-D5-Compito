@@ -128,3 +128,7 @@ footer hr {
   display: inline-block;
   margin-bottom: 2rem;
 }
+
+i {
+  padding-right: 5px;
+}
