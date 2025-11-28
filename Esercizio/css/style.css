@@ -1,0 +1,130 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.body {
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 1.65rem;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+h1,
+h2 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+header {
+  background-color: hsl(0, 0%, 0%);
+  width: 100%;
+  padding: 3%;
+}
+.logo {
+  width: 40%;
+}
+
+.PrimoParagrafo {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  height: 300px;
+  padding: 40px;
+  line-height: 1.65;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.SecondoParagrafo {
+  padding: 40px;
+  line-height: 1.7;
+}
+.Computer {
+  border-radius: 50%;
+  width: 60%;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.TerzoParagrafo {
+  background-color: #e22d0e;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.7;
+  padding: 10%;
+  font-size: small;
+}
+.TerzoParagrafo p {
+  font-style: italic;
+}
+.TerzoParagrafo h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.Box {
+  margin: 25px 25px;
+  padding-bottom: 40px;
+  border: solid 1px #dee1e3;
+  line-height: 1.7;
+  border-radius: 4px;
+}
+.Box p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer {
+  background-color: #25a2c3;
+  margin-top: 1rem;
+  color: white;
+}
+
+footer h2 {
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.7rem;
+}
+footer a,
+footer p {
+  color: #c8e7f0;
+  display: block;
+  padding: 2px;
+  margin: 2px;
+  font-size: 1rem;
+}
+footer hr {
+  line-height: 1.5px, solid, white;
+  width: 40%;
+  margin-block: 2rem;
+}
+.closing {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
